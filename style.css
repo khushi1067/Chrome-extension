@@ -1,35 +1,34 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(45deg, #f6d8ac, #d6c8a1); /* Soft beige gradient */
-    color: #5a4f3f; /* Dark brown text color for contrast */
-    text-align: center;
-  }
-  
-  #container {
-    max-width: 500px;
-    padding: 20px;
-    border-radius: 10px;
-    background: rgba(255, 255, 255, 0.8); /* Light, subtle white background */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Light shadow for softness */
-  }
-  
-  button {
-    margin: 10px;
-    padding: 10px 15px;
-    background: #f4f1e1; /* Light beige background for the button */
-    color: #8b6f4d; /* Muted dark brown text for the button */
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  button:hover {
-    background: #e0d7c6; /* Slightly darker beige when hovered */
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(45deg, #f6d8ac, #d6c8a1); /* Soft beige gradient */
+  color: #5a4f3f; /* Dark brown text color for contrast */
+  text-align: center;
+}
+
+#container {
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.8); /* Light, subtle white background */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Light shadow for softness */
+}
+
+button {
+  margin: 10px;
+  padding: 10px 15px;
+  background: #f4f1e1; /* Light beige background for the button */
+  color: #8b6f4d; /* Muted dark brown text for the button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #e0d7c6; /* Slightly darker beige when hovered */
+}
