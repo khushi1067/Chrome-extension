@@ -1,21 +1,20 @@
 {
     
-    "manifest_version": 3,
-    "name": "Thought of the Day",
-    "version": "1.0",
-    "description": "Get inspired with a new thought every time you open a new tab.",
-  
-    "chrome_url_overrides": {
-      "newtab": "index.html"
-    },
-  
-    "permissions": [
-      "storage"
-    ],
-  
-    "icons": {
-      "48": "icon48.png",
-      "128": "icon128.png"
-    }
+  "manifest_version": 3,
+  "name": "Thought of the Day",
+  "version": "1.0",
+  "description": "Get inspired with a new thought every time you open a new tab.",
+
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+
+  "permissions": [
+    "storage"
+  ],
+
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
   }
-  
+}

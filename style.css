@@ -1,34 +1,75 @@
+/* Apply a Google Font for a more elegant look */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Body styling */
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(45deg, #f6d8ac, #d6c8a1); /* Soft beige gradient */
-  color: #5a4f3f; /* Dark brown text color for contrast */
+  font-family: 'Poppins', sans-serif; /* Using Poppins font for a modern, elegant look */
+  background: #f8f9fa;; /* Soft beige gradient */
+  
   text-align: center;
 }
 
+/* Container for the content */
 #container {
-  max-width: 500px;
+  width: 100%;
+  max-width: 500px; /* Maximum width */
   padding: 20px;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.8); /* Light, subtle white background */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Light shadow for softness */
+  margin: 10px; /* Adding margin for spacing */
 }
 
+/* Button styling */
 button {
   margin: 10px;
-  padding: 10px 15px;
-  background: #f4f1e1; /* Light beige background for the button */
-  color: #8b6f4d; /* Muted dark brown text for the button */
+  padding: 12px 20px;
+  background:#ff3d50; /* Light beige background for the button */
+  color: #000000; /* Muted dark brown text for the button */
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  width: 100%; /* Full width for smaller screens */
+  transition: all 0.3s ease; /* Smooth transition for all properties */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
 }
 
+/* Button hover effect */
 button:hover {
   background: #e0d7c6; /* Slightly darker beige when hovered */
+  transform: translateY(-3px); /* Slightly lift the button */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+  transition: all 0.3s ease; /* Smooth transition for shadow and transform */
+}
+
+/* Button active effect */
+button:active {
+  transform: translateY(2px); /* Slight push down on click */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow when clicked */
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 600px) {
+  #container {
+    padding: 15px; /* Slightly less padding for small screens */
+  }
+
+  button {
+    padding: 12px 20px; /* Adjust button padding for better fit */
+    font-size: 14px; /* Reduce font size for smaller screens */
+  }
+}
+
+/* Additional styling for mobile-friendly */
+@media screen and (max-width: 400px) {
+  button {
+    padding: 10px 15px; /* Further reduce padding */
+    font-size: 12px; /* Further reduce font size for small mobile screens */
+  }
 }
